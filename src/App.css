@@ -1,0 +1,27 @@
+.App {
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: rgb(39, 0, 23);
+}
+
+.table {
+  width: 80vw;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  box-sizing: border-box;
+  margin: 10px auto;
+}
+
+.table-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(0, 41, 51);
+}
